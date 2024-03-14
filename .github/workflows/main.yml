@@ -1,1 +1,8 @@
 name: CI
+on: push
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: just a 
+        run: ls -la
